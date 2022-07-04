@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import {BrowserRouter, NavLink, Route, Switch} from "react-router-dom";
 import Home from "./containers/Home/Home";
 import Countries from "./containers/Countries/Countries";
 import Chat from "./containers/Chat/Chat";
@@ -9,6 +9,14 @@ import './App.css'
 const App = () => {
     return (
         <BrowserRouter>
+            <div className="links">
+            <dl>
+                <dt><NavLink exact className="Link" to="/">Home</NavLink></dt>
+                <dt><NavLink className="Link" to="/countries">Countries</NavLink></dt>
+                <dt><NavLink className="Link" to="/chat">Chat</NavLink></dt>
+
+            </dl>
+            </div>
           <Switch>
             <Route path="/" exact component={Home}/>
             <Route path="/countries" component={Countries}/>
