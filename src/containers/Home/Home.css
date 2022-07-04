@@ -1,0 +1,25 @@
+.Upper {
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    width: 360px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.footer {
+    background: #37578d;
+    height: 70px;
+    text-align: center;
+}
+.footer p {
+    padding-top: 25px;
+    color: #eeeeee;
+}
+.question {
+    text-align: center;
+    font-size: 25px;
+    color: #3c3d8f;
+}
+
+
