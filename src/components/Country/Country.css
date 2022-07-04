@@ -1,0 +1,24 @@
+.CountryList {
+    margin-top: 10px;
+    width: 550px;
+    height: 98vh;
+    overflow-y: scroll;
+    border: #6d787d solid 1px;
+    border-radius: 3px;
+    padding-bottom: 10px;
+}
+
+.List {
+    font-family: "sans-serif";
+    list-style: none;
+    margin:0;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0 10px 0;
+    text-transform: uppercase;
+}
+.List:hover {
+    background: linear-gradient(to right, rgba(174,188,191,1) 0%,rgba(110,119,116,1) 68%,rgba(124,124,124,1) 100%);
+    color: #fff;
+    cursor: pointer;
+}
+
